@@ -12,5 +12,5 @@ function logDriversByHometown(drivers, location){
 
 function driversByRevenue(drivers){
   copyOfDrivers = Object.assign({}, drivers)
-  return Object.assign({}, drivers.sort(function(a, b){return a.revenue - b.revenue}))
+  return copyOfDrivers.sort(function(a, b){return a.revenue - b.revenue})
 }
