@@ -27,3 +27,7 @@ function driversByName(drivers){
     }
   })
 }
+
+function totalRevenue(drivers){
+  drivers.reuduce(function(rev, driver){return rev + driver.revenue})
+}
