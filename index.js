@@ -31,3 +31,7 @@ function driversByName(drivers){
 function totalRevenue(drivers){
   return drivers.reduce(function(rev, driver){return rev += driver.revenue}, 0)
 }
+
+function averageRevenue(drivers){
+  return totalRevenue(drivers) / drivers.length
+}
