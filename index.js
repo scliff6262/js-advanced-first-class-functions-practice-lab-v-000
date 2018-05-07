@@ -17,5 +17,5 @@ function driversByRevenue(drivers){
 
 function driversByName(drivers){
   const copyOfDrivers = [...drivers]
-  return copyOfDrivers.sort(function(a,b){return a.name - b.name}
+  return copyOfDrivers.sort(function(a,b){return a.name - b.name})
 }
