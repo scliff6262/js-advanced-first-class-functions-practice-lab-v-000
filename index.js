@@ -11,6 +11,10 @@ function logDriversByHometown(drivers, location){
 }
 
 function driversByRevenue(drivers){
-  const copyOfDrivers = [...driver]
+  const copyOfDrivers = [...drivers]
   return copyOfDrivers.sort(function(a, b){return a.revenue - b.revenue})
+}
+
+function driversByName(drivers){
+  const copyOfDrivers = [...drivers]
 }
