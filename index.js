@@ -1,3 +1,3 @@
 function logDriverNames(drivers){
-  drivers.forEach(driverObj)
+  drivers.forEach(driverObj){console.log(driverObj.name)}
 }
