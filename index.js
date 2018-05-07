@@ -11,5 +11,5 @@ function logDriversByHometown(drivers, location){
 }
 
 function driversByRevenue(drivers){
-  return drivers.sort(function(a, b){return a.revenute - b.revenue}
+  return drivers.sort(function(a, b){return a.revenute - b.revenue})
 }
