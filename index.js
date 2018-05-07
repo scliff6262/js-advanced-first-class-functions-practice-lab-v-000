@@ -9,3 +9,7 @@ function logDriversByHometown(drivers, location){
   const filteredByHometown = drivers.filter(function(driver){return driver.hometown === location})
   filteredByHometown.forEach(function(obj){console.log(obj.name)})
 }
+
+function driversByRevenue(drivers){
+  drivers.sort(function(a, b){return a.revenute - b.revenue}
+}
